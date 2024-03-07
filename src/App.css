@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  padding: 30px;
+  background-image: linear-gradient(180deg,rgba(181, 138, 138, 0.726),rgba(42, 41, 41, 0.712));
 }
 
 .App-logo {
@@ -9,8 +11,12 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 1s linear;
   }
+  h1{
+    animation: MoonWalk infinite 1s linear;
+  }
+  
 }
 
 .App-header {
@@ -35,4 +41,172 @@
   to {
     transform: rotate(360deg);
   }
+}
+.cv {
+  position: relative;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #daa7a7;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 32px;
+  color: #333;
+}
+
+.header p {
+  margin: 5px 0;
+  font-size: 18px;
+  color: #555;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section h2 {
+  margin: 0 0 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+.section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.section li {
+  margin-bottom: 5px;
+  padding-left: 20px;
+  position: relative;
+  font-size: 16px;
+  color: #444;
+}
+
+.section li::before {
+  content: "\2022";
+  color: #333;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  position: absolute;
+}
+
+img{
+  width: 300px;
+  height: 400px;
+  margin-left: -800px;
+}
+h1{
+  position: absolute;
+  top: 160px;
+  font-weight: 600;
+  right: 600px;
+}
+.information1{
+  font-size: 1.3rem;
+  font-weight: normal;
+  font-family: 'Times New Roman', Times, serif;
+  display:flex;
+  list-style: none;
+  position: relative;
+  top: -200px;
+  right: -452px;
+}
+
+.information1 li{
+  padding-left: 30px;
+}
+
+.information1_2{
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  display:flex;
+  list-style: none;
+  position: relative;
+  top: -200px;
+  right: -400px;
+  
+ padding:10px;
+}
+
+.information1_2 li{
+  
+  padding: 10px 15px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  width: 425px;
+}
+
+.experience{
+  position: relative;
+  left: -100px;
+  width: 600px;
+}
+.p2{
+  margin-left: 160px;
+  width: 200px;
+}
+
+.inf4{
+  margin-left: -150px;
+}
+.p1{
+  margin-left: -110px;
+}
+
+.ul1 {
+  margin-left: 0; /* Chỉnh lại margin-left để không cần dịch chuyển quá nhiều */
+  padding-left: 220px; /* Thêm padding-left thay thế cho margin-left để giữ khoảng cách */
+}
+
+.ul1 li {
+  width: calc(100% - 160px); /* Sử dụng calc để tính toán chiều rộng chính xác */
+  text-overflow: ellipsis; /* Hiển thị dấu ba chấm nếu nội dung quá dài */
+  white-space: nowrap; /* Ngăn chặn ngắt dòng */
+  margin-bottom: 10px; /* Thêm margin-bottom để tạo khoảng cách giữa các mục */
+}
+.education {
+  position: relative;
+  left: -100px;
+  width: 600px;
+}
+
+.p3 {
+  margin-left: -70px;
+}
+
+.inf5 {
+  margin-left: 60px;
+}
+
+.p4 {
+  margin-left: -50px;
+}
+
+.ul2 {
+  margin-left: 0;
+  padding-left: 220px;
+}
+
+.ul2 li {
+  width: calc(100% - 160px);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 10px;
+}
+.h2{
+  margin-left: -140px;
 }
